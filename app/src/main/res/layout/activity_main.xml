@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/bt_ui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ui"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/bt_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lifecycle"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/bt_jump"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="jump"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/bt_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="fragment"
+        android:textSize="25sp"/>
+
+</LinearLayout>

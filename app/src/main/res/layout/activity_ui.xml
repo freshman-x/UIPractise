@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="wdnmd"
+            android:textColor="#FF00FF"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="button" />
+
+        <Button
+            android:id="@+id/bt_eidttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="edit text"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_radiobutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="radio button"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="checkbox"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="imnageview"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="listview（不常用）"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_gridview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="greidview"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="RecyclerView"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/bt_webview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="webview"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/bt_toast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="toast"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/bt_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="dialog"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/bt_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="progress"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/bt_customdialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="自定义dialog"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/bt_popupwindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="PopupWindow"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</ScrollView>
